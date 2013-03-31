@@ -4,16 +4,36 @@ runtime: python27
 api_version: 1
 threadsafe: true
 
+libraries:
+- name: numpy
+  version: "1.6.1"
+- name: webapp2
+  version: "2.5.1"
+- name: jinja2
+  version: "2.6"
+
 handlers:
 - url: /favicon.ico
   static_files: favicon.gif
   upload: favicon.gif
 
-- url: /nltk.*
-  script: nltker.app
+#- url: /nltk.*
+  #script: nltker.app
 
-libraries:
-- name: numpy
-  version: "1.6.1"
-- name: jinja2
-  version: latest
+- url: /.*
+  script: main.APP
+
+- url: /admin/?.*
+  script: google.appengine.ext.admin.application
+  login: admin
+
+skip_files:
+  - ^(.*/)?app\.yaml
+  - ^(.*/)?#.*#
+  - ^(.*/)?.*~
+  - ^(.*/)?.*\.py[co]
+  - ^(.*/)?.*/RCS/.*
+  - ^(.*/)?\..*
+  - ^(.*/)?.*\.bak$
+  - ^(.*/)?static/sass
+  - ^(.*/)?.*/\.svn/.*$

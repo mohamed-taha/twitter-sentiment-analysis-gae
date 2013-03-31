@@ -1,11 +1,10 @@
-import logging
 import json
 import webapp2
 
 import nltk
 
-from nltk.probability import FreqDist, ELEProbDist
-from nltk.classify.util import apply_features,accuracy
+from nltk.probability import FreqDist
+from nltk.classify.util import apply_features
 from google.appengine.api import urlfetch
 
 # Test project for NLTK for app engine
@@ -18,7 +17,7 @@ def bag_of_words(words):
     turn words into tuples
     """
     return dict([word, True] for word in words)
-    
+
 def get_words_in_tweets(tweets):
     all_words = []
     for (words, sentiment) in tweets:
@@ -30,7 +29,7 @@ def get_word_features(wordlist):
     word_features = wordlist.keys()
     return word_features
 
-pos_tweets=[('I love this car','positive'), 
+pos_tweets=[('I love this car','positive'),
     ('This view is amazing','positive'),
     ('I feel great this morning','positive'),
     ('I am so excited about the concert','positive'),
@@ -60,7 +59,6 @@ training_set = apply_features(extract_features, tweets)
 
 classifier = nltk.classify.NaiveBayesClassifier.train(training_set)
 
-
 class nltkTestPage(webapp2.RequestHandler):
     def get(self):
         response       = urlfetch.fetch("http://search.twitter.com/search.json?q=saskatoon%20weather")
@@ -69,4 +67,3 @@ class nltkTestPage(webapp2.RequestHandler):
         self.response.headers['Content-Type'] = 'application/json'
         self.response.out.write(json.dumps(results))
 
-app = webapp2.WSGIApplication([('/nltk', nltkTestPage)], debug=True)
