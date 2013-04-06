@@ -2,361 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e279fb38-df58-48f1-8d98-e698a3430143" name="Default" comment="adding mapreduce pipeline">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/favicon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-black-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-black.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-default-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/portuguese.doctest_latin1" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/portuguese_en.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/app.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/keys.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/base_handler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/context.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/control.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/errors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/file_format_parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/file_format_root.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/file_formats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/handlers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/hooks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/include.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/input_readers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/crc32c.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/file_service_pb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/encoders.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/bar_chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/formatters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/line_chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/pie_chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/key_range/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/handlers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/decoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/encoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/ordered_dict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/scanner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/tool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/status_ui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery-1.4.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.ba-hashchange.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.json.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.timeago.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.treeview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.treeview.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/root_list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/root_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/root_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/status.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/status.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/decoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/encoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/scanner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/mapper_pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/mapreduce_pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/mock_webapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/namespace_range.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/counters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/output_writers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/parameters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/quota.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/shuffler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/jquery-1.6.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/jquery.json-2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/status.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/test_support.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/align.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/chartparser_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/chunkparser_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/collocations_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/concordance_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/nemo_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/rdparser_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/srparser_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/wordfreq_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/app/wordnet_app.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/book.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/ccg/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/ccg/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/ccg/chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/ccg/combinator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/ccg/lexicon.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/eliza.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/iesha.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/rude.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/suntsu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chat/zen.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chunk/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chunk/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chunk/named_entity.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chunk/regexp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/chunk/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/decisiontree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/mallet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/maxent.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/megam.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/naivebayes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/positivenaivebayes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/rte_classify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/scikitlearn.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/svm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/tadm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/classify/weka.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/cluster/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/cluster/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/cluster/em.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/cluster/gaac.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/cluster/kmeans.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/cluster/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/collocations.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/europarl_raw.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/aligned.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/bnc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/bracket_parse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/chasen.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/childes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/chunked.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/cmudict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/conll.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/dependency.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/ieer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/indian.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/ipipan.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/knbc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/lin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/nombank.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/nps_chat.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/pl196x.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/plaintext.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/ppattach.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/propbank.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/rte.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/semcor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/senseval.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/sinica_treebank.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/string_category.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/switchboard.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/tagged.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/timit.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/toolbox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/verbnet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/wordlist.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/wordnet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/xmldocs.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/reader/ycoe.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/corpus/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/data.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/downloader.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/draw/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/draw/cfg.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/draw/dispersion.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/draw/table.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/draw/tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/draw/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/examples/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/examples/pt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/featstruct.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/grammar.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/help.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/discourse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/mace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/nonmonotonic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/prover9.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/resolution.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/inference/tableau.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/internals.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/lazyimport.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/agreement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/artstein_poesio_example.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/association.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/confusionmatrix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/distance.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/scores.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/segmentation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/spearman.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/metrics/windowdiff.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/misc/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/misc/babelfish.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/misc/chomsky.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/misc/minimalset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/misc/sort.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/misc/wordfinder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/model/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/model/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/model/ngram.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/broker_test.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/dependencygraph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/earleychart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/featurechart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/generate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/generate2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/malt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/nonprojectivedependencyparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/pchart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/projectivedependencyparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/rd.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/sr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/test.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/parse/viterbi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/probability.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/boxer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/chat80.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/cooper_storage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/drt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/drt_glue_demo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/evaluate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/glue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/hole.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/lfg.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/linearlogic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/logic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/relextract.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/skolemize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sem/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/sourcedstring.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/isri.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/lancaster.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/porter.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/regexp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/rslp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/snowball.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/stem/wordnet.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/brill.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/crf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/hmm.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/senna.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/sequential.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/simplify.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/tnt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tag/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/align.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/all.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/ccg.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/chat80.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/childes.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/chunk.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/classify.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/collocations.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/corpus.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/data.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/dependency.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/discourse.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/doctest_driver.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/doctest_nose_plugin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/doctest_utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/drt.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/featgram.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/featstruct.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/floresta.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/gluesemantics.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/grammar.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/grammartestsuites.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/inference.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/internals.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/japanese.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/logic.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/metrics.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/misc.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/nonmonotonic.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/onto1.fol" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/parse.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/probability.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/relextract.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/resolution.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/runtests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/segmentation.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/sem3.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/semantics.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/simple.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/sourcedstring.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/stem.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/tag.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/tokenize.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/toolbox.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/toy.cfg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/tree.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/treetransforms.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/util.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/test/wordnet.doctest" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/text.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/punkt.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/regexp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/sexpr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/simple.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/texttiling.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/treebank.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tokenize/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/toolbox.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/tree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/treetransforms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/nltk/yamltags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/routes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="22bf196e-e9b5-4be0-9e30-091abf524355" name="Rejected commit: Default" comment="adding mapreduce pipeline">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/static/js/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/bootstrap/forms/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/bootstrap/forms/macros.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/bootstrap/includes/messages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/bootstrap/layouts/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/bootstrap/layouts/base_navbar_responsive.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/bootstrap/macros.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/templates/search.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appengine/js/bootstrap.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/appengine/js/bootstrap.js" afterPath="$PROJECT_DIR$/appengine/static/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/app.yaml" afterPath="$PROJECT_DIR$/appengine/app.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/main.py" afterPath="$PROJECT_DIR$/appengine/main.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/models.py" afterPath="$PROJECT_DIR$/appengine/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/routes.py" afterPath="$PROJECT_DIR$/appengine/routes.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/views/__init__.py" afterPath="$PROJECT_DIR$/appengine/views/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/views/search.py" afterPath="$PROJECT_DIR$/appengine/views/search.py" />
     </list>
     <ignored path="twitter-sentiment-analysis-gae.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/.gitignore" changelist="e279fb38-df58-48f1-8d98-e698a3430143" time="1365278636090" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -394,27 +71,34 @@
       <file leaf-file-name="nltker.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/views/nltker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="42" selection-start="770" selection-end="800" vertical-scroll-proportion="-0.6">
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipeline.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appengine/pipeline.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.28610355">
+            <state line="31" column="42" selection-start="770" selection-end="800" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classifier.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appengine/domain/classifier.py">
+      <file leaf-file-name="pipeline.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appengine/pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-7.8">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="4" selection-start="20" selection-end="20" vertical-scroll-proportion="0.081743866">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appengine/routes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.6">
               <folding />
             </state>
           </provider>
@@ -441,7 +125,7 @@
       <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/app.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -476,11 +160,13 @@
         <option value="$PROJECT_DIR$/appengine/views/nltker.py" />
         <option value="$PROJECT_DIR$/appengine/app.yaml" />
         <option value="$PROJECT_DIR$/appengine/pipeline.py" />
+        <option value="$PROJECT_DIR$/appengine/routes.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-56" />
+    <option name="x" value="129" />
     <option name="y" value="22" />
     <option name="width" value="1276" />
     <option name="height" value="778" />
@@ -511,7 +197,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -546,6 +231,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,6 +297,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e279fb38-df58-48f1-8d98-e698a3430143" name="Default" comment="" />
+      <changelist id="22bf196e-e9b5-4be0-9e30-091abf524355" name="Rejected commit: Default" comment="adding mapreduce pipeline" />
       <created>1364693881782</created>
       <updated>1364693881782</updated>
     </task>
@@ -650,14 +337,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-56" y="22" width="1276" height="778" extended-state="6" />
-    <editor active="false" />
+    <frame x="129" y="22" width="1276" height="778" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25772357" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2617886" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -667,7 +355,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -730,15 +417,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appengine/views/nltker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appengine/domain/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
@@ -751,11 +429,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appengine/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appengine/views/__init__.py">
@@ -814,10 +487,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appengine/views/nltker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="42" selection-start="770" selection-end="800" vertical-scroll-proportion="-0.6">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state line="31" column="42" selection-start="770" selection-end="800" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -828,14 +499,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appengine/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+        <state line="31" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appengine/pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.28610355">
+        <state line="14" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="-7.8">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appengine/routes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="20" selection-end="20" vertical-scroll-proportion="0.081743866">
           <folding />
         </state>
       </provider>
