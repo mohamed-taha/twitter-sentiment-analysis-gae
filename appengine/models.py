@@ -1,13 +1,14 @@
 from google.appengine.ext import ndb
 
-from keys import SUPPORTED_CATEGORY
+from keys import SUPPORTED_CATEGORY, RANKS
 
 
 class SentimentScore(ndb.Model):
     """
     Sentiment Score, Article as parent
     """
-    sentiment_score     = ndb.FloatProperty(required=True)
+    sentiment_score     = ndb.FloatProperty()
+    rank                = ndb.StringProperty(choices=[RANKS], required=True)
     category            = ndb.StringProperty(choices=[SUPPORTED_CATEGORY], required=True)
 
 class Article(ndb.Model):
