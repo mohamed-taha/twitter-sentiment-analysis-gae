@@ -19,6 +19,13 @@ class Article(ndb.Model):
     raw_content     = ndb.JsonProperty(indexed=False)
     scores          = ndb.StructuredProperty(SentimentScore, repeated=True)
 
+    #def updateScores(self, category, score):
+        #"""
+        #"""
+        #if not self.scores:
+            #self.scores = []
+
+
 class SentimentClassifier(ndb.Model):
     """
     Sentiment Classifier
