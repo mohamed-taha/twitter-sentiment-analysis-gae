@@ -27,6 +27,9 @@ handlers:
   script: google.appengine.ext.admin.application
   login: admin
 
+includes:
+- mapreduce/include.yaml
+
 skip_files:
   - ^(.*/)?app\.yaml
   - ^(.*/)?#.*#

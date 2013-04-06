@@ -4,13 +4,23 @@ pipeline
 from mapreduce import base_handler
 from mapreduce import mapreduce_pipeline
 
+def entry_map(entity):
+    """
+    :param entity:
+    :return:
+    """
+    return entity
+
+def entry_reduce():
+    pass
+
 class ClassifierTrainingPipeline(base_handler.PipelineBase):
 	"""
 	the pipeline to train classifier
 	"""
 	def run(self, shards):
 	    yield mapreduce_pipeline.MapperPipeline(
-            "Mention Export",
+            "Train Classifier",
             "steprep.domain.export_to_core.mentionToJson",
             "mapreduce.input_readers.DatastoreInputReader",
             output_writer_spec="mapreduce.output_writers.FileOutputWriter",
