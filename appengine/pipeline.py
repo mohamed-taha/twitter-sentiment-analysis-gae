@@ -6,12 +6,11 @@ from mapreduce import mapreduce_pipeline
 
 def entry_map(entity):
     """
-    :param entity:
-    :return:
+    convert entity into list
     """
     return entity
 
-def entry_reduce():
+def entry_reduce(key, value):
     pass
 
 class ClassifierTrainingPipeline(base_handler.PipelineBase):
@@ -21,19 +20,15 @@ class ClassifierTrainingPipeline(base_handler.PipelineBase):
 	def run(self, shards):
 	    yield mapreduce_pipeline.MapperPipeline(
             "Train Classifier",
-            "steprep.domain.export_to_core.mentionToJson",
+            "pipeline.entry_map",
+            "pipeline.entry_reduce",
             "mapreduce.input_readers.DatastoreInputReader",
-            output_writer_spec="mapreduce.output_writers.FileOutputWriter",
-            params={
+            output_writer_spec="mapreduce.output_writers.BlobstoreOutputWriter",
+            mapper_params={
                 "input_reader" : {
                     "entity_kind": "steprep.api.models.account_entry.AccountEntry",
                     "namespace":   "",
-                },
-                "output_writer" : {
-                    "filesystem": "gs",
-                    "gs_bucket_name": BUCKET_NAME,
-                    "output_sharding": "input",
-                },
-            },
+                }},
+            reducer_params={"mime_type": "text/plain",},
             shards=shards
         )

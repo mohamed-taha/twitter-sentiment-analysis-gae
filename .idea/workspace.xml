@@ -1,591 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e279fb38-df58-48f1-8d98-e698a3430143" name="Default" comment="adding app engine mapreduce lib">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-black-line.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-black.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-default-line.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-default.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-black-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-black.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-default-line.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/treeview-default.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/base_handler.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/context.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/control.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/errors.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/file_format_parser.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/file_format_root.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/file_formats.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/handlers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/hooks.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/input_readers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/main.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/mapper_pipeline.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/mapreduce_pipeline.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/mock_webapp.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/model.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/namespace_range.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/output_writers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/parameters.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/quota.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/shuffler.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/status.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/test_support.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/prop-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/base_handler.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/context.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/control.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/errors.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/file_format_parser.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/file_format_root.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/file_formats.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/handlers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/hooks.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/include.yaml.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/input_readers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/main.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/mapper_pipeline.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/mapreduce_pipeline.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/mock_webapp.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/model.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/namespace_range.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/output_writers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/parameters.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/quota.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/shuffler.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/status.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/test_support.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/.svn/text-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/base_handler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/context.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/control.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/errors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/file_format_parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/file_format_root.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/file_formats.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/handlers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/hooks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/include.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/input_readers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/blobstore/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/blobstore/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/.svn/prop-base/crc32c.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/.svn/prop-base/file_service_pb.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/.svn/text-base/crc32c.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/.svn/text-base/file_service_pb.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/crc32c.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/files/file_service_pb.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/bar_chart.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/common.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/formatters.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/line_chart.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/pie_chart.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/prop-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/README.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/bar_chart.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/common.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/formatters.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/line_chart.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/pie_chart.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/.svn/text-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/prop-base/encoders.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/prop-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/text-base/encoders.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/.svn/text-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/encoders.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/backends/google_chart_api/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/bar_chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/formatters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/line_chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/pie_chart.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/graphy/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/key_range/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/key_range/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/key_range/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/key_range/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/key_range/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/common.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/handlers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/models.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/pipeline.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/status_ui.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/prop-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/common.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/handlers.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/models.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/pipeline.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/status_ui.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/.svn/text-base/util.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/common.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/handlers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/prop-base/decoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/prop-base/encoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/prop-base/ordered_dict.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/prop-base/scanner.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/prop-base/tool.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/text-base/decoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/text-base/encoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/text-base/ordered_dict.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/text-base/scanner.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/.svn/text-base/tool.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/decoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/encoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/ordered_dict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/scanner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/simplejson/tool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/status_ui.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/common.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/common.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery-1.4.2.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.ba-hashchange.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.cookie.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.json.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.timeago.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.treeview.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.treeview.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/root_list.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/root_list.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/root_list.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/status.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/status.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/prop-base/status.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/common.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/common.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery-1.4.2.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.ba-hashchange.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.cookie.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.json.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.timeago.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.treeview.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.treeview.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/root_list.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/root_list.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/root_list.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/status.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/status.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/.svn/text-base/status.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-black-line.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-black.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-default-line.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-default.gif.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery-1.4.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.ba-hashchange.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.cookie.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.json.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.timeago.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.treeview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/jquery.treeview.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/root_list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/root_list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/root_list.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/status.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/status.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/ui/status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/pipeline/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/prop-base/decoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/prop-base/encoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/prop-base/scanner.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/text-base/README.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/text-base/decoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/text-base/encoder.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/.svn/text-base/scanner.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/decoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/encoder.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/lib/simplejson/scanner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/mapper_pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/mapreduce_pipeline.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/mock_webapp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/model.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/namespace_range.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/prop-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/prop-base/base.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/prop-base/counters.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/prop-base/db.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/text-base/__init__.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/text-base/base.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/text-base/counters.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/.svn/text-base/db.py.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/counters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/operation/db.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/output_writers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/parameters.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/quota.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/shuffler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/all-wcprops" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/entries" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/prop-base/base.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/prop-base/detail.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/prop-base/jquery-1.6.1.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/prop-base/jquery.json-2.2.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/prop-base/overview.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/prop-base/status.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/text-base/base.css.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/text-base/detail.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/text-base/jquery-1.6.1.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/text-base/jquery.json-2.2.min.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/text-base/overview.html.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/.svn/text-base/status.js.svn-base" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/jquery-1.6.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/jquery.json-2.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/static/status.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/status.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/test_support.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/mapreduce/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appengine/pipeline.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/base_handler.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/context.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/control.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/errors.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/file_format_parser.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/file_format_root.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/file_formats.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/handlers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/hooks.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/input_readers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/main.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/mapper_pipeline.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/mapreduce_pipeline.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/mock_webapp.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/model.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/namespace_range.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/output_writers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/parameters.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/quota.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/shuffler.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/status.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/test_support.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/prop-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/base_handler.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/context.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/control.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/errors.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/file_format_parser.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/file_format_root.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/file_formats.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/handlers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/hooks.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/include.yaml.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/input_readers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/main.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/mapper_pipeline.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/mapreduce_pipeline.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/mock_webapp.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/model.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/namespace_range.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/output_writers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/parameters.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/quota.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/shuffler.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/status.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/test_support.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/.svn/text-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/base_handler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/control.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/errors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/file_format_parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/file_format_root.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/file_formats.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/handlers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/hooks.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/include.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/input_readers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/blobstore/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/blobstore/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/.svn/prop-base/crc32c.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/.svn/prop-base/file_service_pb.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/.svn/text-base/crc32c.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/.svn/text-base/file_service_pb.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/crc32c.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/files/file_service_pb.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/bar_chart.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/common.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/formatters.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/line_chart.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/pie_chart.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/prop-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/README.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/bar_chart.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/common.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/formatters.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/line_chart.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/pie_chart.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/.svn/text-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/prop-base/encoders.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/prop-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/text-base/encoders.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/.svn/text-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/encoders.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/backends/google_chart_api/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/bar_chart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/formatters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/line_chart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/pie_chart.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/graphy/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/key_range/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/key_range/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/key_range/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/key_range/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/key_range/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/common.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/handlers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/models.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/pipeline.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/status_ui.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/prop-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/common.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/handlers.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/models.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/pipeline.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/status_ui.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/.svn/text-base/util.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/handlers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/pipeline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/prop-base/decoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/prop-base/encoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/prop-base/ordered_dict.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/prop-base/scanner.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/prop-base/tool.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/text-base/decoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/text-base/encoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/text-base/ordered_dict.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/text-base/scanner.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/.svn/text-base/tool.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/decoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/encoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/ordered_dict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/scanner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/simplejson/tool.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/status_ui.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/common.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/common.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery-1.4.2.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.ba-hashchange.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.cookie.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.json.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.timeago.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.treeview.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/jquery.treeview.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/root_list.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/root_list.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/root_list.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/status.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/status.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/prop-base/status.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/common.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/common.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery-1.4.2.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.ba-hashchange.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.cookie.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.json.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.timeago.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.treeview.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/jquery.treeview.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/root_list.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/root_list.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/root_list.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/status.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/status.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/.svn/text-base/status.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-black-line.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-black.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-default-line.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/prop-base/treeview-default.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-black-line.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-black.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-default-line.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/.svn/text-base/treeview-default.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/treeview-black-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/treeview-black.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/treeview-default-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/images/treeview-default.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery-1.4.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery.ba-hashchange.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery.json.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery.timeago.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery.treeview.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/jquery.treeview.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/root_list.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/root_list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/root_list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/status.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/status.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/ui/status.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/pipeline/util.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/prop-base/decoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/prop-base/encoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/prop-base/scanner.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/text-base/README.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/text-base/decoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/text-base/encoder.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/.svn/text-base/scanner.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/decoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/encoder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/lib/simplejson/scanner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/mapper_pipeline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/mapreduce_pipeline.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/mock_webapp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/model.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/namespace_range.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/prop-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/prop-base/base.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/prop-base/counters.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/prop-base/db.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/text-base/__init__.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/text-base/base.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/text-base/counters.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/.svn/text-base/db.py.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/counters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/operation/db.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/output_writers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/parameters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/quota.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/shuffler.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/prop-base/base.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/prop-base/detail.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/prop-base/jquery-1.6.1.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/prop-base/jquery.json-2.2.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/prop-base/overview.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/prop-base/status.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/text-base/base.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/text-base/detail.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/text-base/jquery-1.6.1.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/text-base/jquery.json-2.2.min.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/text-base/overview.html.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/.svn/text-base/status.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/base.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/detail.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/jquery-1.6.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/jquery.json-2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/static/status.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/status.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/test_support.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mapreduce/util.py" afterPath="" />
+    <list default="true" id="e279fb38-df58-48f1-8d98-e698a3430143" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine/pipeline.py" afterPath="$PROJECT_DIR$/appengine/pipeline.py" />
     </list>
     <ignored path="twitter-sentiment-analysis-gae.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -608,7 +26,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="195" selection-end="207" vertical-scroll-proportion="0.0">
+            <state line="9" column="16" selection-start="195" selection-end="207" vertical-scroll-proportion="-3.0">
               <folding />
             </state>
           </provider>
@@ -617,16 +35,7 @@
       <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appengine/views/search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -644,7 +53,7 @@
       <file leaf-file-name="nltker.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/views/nltker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-17.2">
+            <state line="60" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-36.0">
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -655,7 +64,7 @@
       <file leaf-file-name="pipeline.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appengine/pipeline.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="92" selection-end="92" vertical-scroll-proportion="0.16348773">
+            <state line="8" column="28" selection-start="153" selection-end="153" vertical-scroll-proportion="0.32697546">
               <folding>
                 <element signature="e#17#51#0" expanded="true" />
               </folding>
@@ -663,10 +72,28 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="include.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appengine/mapreduce/include.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appengine/app.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="classifier.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/domain/classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
+            <state line="53" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-11.08">
               <folding />
             </state>
           </provider>
@@ -675,16 +102,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appengine/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appengine/routes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -717,13 +135,14 @@
         <option value="$PROJECT_DIR$/appengine/domain/classifier.py" />
         <option value="$PROJECT_DIR$/appengine/models.py" />
         <option value="$PROJECT_DIR$/appengine/views/nltker.py" />
+        <option value="$PROJECT_DIR$/appengine/app.yaml" />
         <option value="$PROJECT_DIR$/appengine/pipeline.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="55" />
+    <option name="x" value="1" />
+    <option name="y" value="41" />
     <option name="width" value="1276" />
     <option name="height" value="778" />
   </component>
@@ -860,13 +279,18 @@
       <created>1364694990527</created>
       <updated>1364694990527</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="include mapreduce into app">
+      <created>1365275017154</created>
+      <updated>1365275017154</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="55" width="1276" height="778" extended-state="0" />
+    <frame x="1" y="41" width="1276" height="778" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -881,7 +305,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -922,7 +345,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding app engine mapreduce lib" />
+    <option name="LAST_COMMIT_MESSAGE" value="include mapreduce into app" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -937,25 +360,12 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="adding domain layer for classifier" />
     <MESSAGE value="adding app engine mapreduce lib" />
+    <MESSAGE value="include mapreduce into app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appengine/routes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appengine/views/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appengine/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1007,6 +417,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appengine/keys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appengine/mapreduce/include.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appengine/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appengine/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1014,23 +445,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appengine/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="195" selection-end="207" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appengine/domain/classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appengine/keys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+        <state line="53" column="11" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-11.08">
           <folding />
         </state>
       </provider>
@@ -1044,16 +461,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appengine/views/nltker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-17.2">
+        <state line="60" column="0" selection-start="1783" selection-end="1783" vertical-scroll-proportion="-36.0">
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/appengine/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="195" selection-end="207" vertical-scroll-proportion="-3.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/appengine/pipeline.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="92" selection-end="92" vertical-scroll-proportion="0.16348773">
+        <state line="8" column="28" selection-start="153" selection-end="153" vertical-scroll-proportion="0.32697546">
           <folding>
             <element signature="e#17#51#0" expanded="true" />
           </folding>
