@@ -1,6 +1,7 @@
 """
 pipeline
 """
+import logging
 import pickle
 import nltk
 
@@ -18,8 +19,10 @@ def get_word_features(word_list):
 
 def get_words_in_tweets(tweets):
     all_words = []
-    for (words, sentiment) in tweets:
-        all_words.extend(words)
+    for tweet in tweets:
+        if type(tweet) == tuple:
+            logging.error(tweet[0])
+            all_words.extend(tweet[0])
     return all_words
 
 
@@ -28,26 +31,45 @@ def entry_map(entity):
     convert entity into list
     """
     for score in entity.scores:
-        yield (score.category, (entity.raw_content, score.sentiment_score))
+        yield (score.category, (entity.article_text, score.rank))
 
-def entry_reduce(key, values):
-    word_features = get_word_features(get_words_in_tweets(values))
+def entry_reduce(key, raw_values):
+
+    values = []
+    for raw_value in raw_values:
+        logging.error(raw_value)
+        logging.error(type(raw_value))
+        value = eval(raw_value)
+        values.append(value)
+
+    tweets = []
+    for(words,sentiment)in values:
+        words_filtered=[e.lower() for e in words.split() if len(e)>=3]
+        tweets.append((words_filtered ,sentiment))
+
+    word_features = get_word_features(get_words_in_tweets(tweets))
+
     def extract_features(document):
+        logging.error(document)
         document_words = set(document)
         features = {}
         for word in word_features:
+            logging.error(word)
             features['contains(%s)' % word] = (word in document_words)
         return features
-    training_set = apply_features(extract_features, values)
+
+    training_set = apply_features(extract_features, tweets)
+    logging.error(training_set)
     classifier = nltk.classify.NaiveBayesClassifier.train(training_set)
+    setattr(classifier, 'category', key)
     yield pickle.dumps(classifier)
 
 class ClassifierTrainingPipeline(base_handler.PipelineBase):
 	"""
 	the pipeline to train classifier
 	"""
-	def run(self, shards):
-	    yield mapreduce_pipeline.MapperPipeline(
+	def run(self, shards=4):
+	    yield mapreduce_pipeline.MapreducePipeline(
             "Train Classifier",
             "pipeline.entry_map",
             "pipeline.entry_reduce",
