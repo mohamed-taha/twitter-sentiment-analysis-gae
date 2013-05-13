@@ -1,14 +1,15 @@
 from google.appengine.ext import ndb
 
-from keys import SUPPORTED_CATEGORY
+from keys import SUPPORTED_CATEGORIES, RANKS
 
 
 class SentimentScore(ndb.Model):
     """
     Sentiment Score, Article as parent
     """
-    sentiment_score     = ndb.FloatProperty(required=True)
-    category            = ndb.StringProperty(choices=[SUPPORTED_CATEGORY], required=True)
+    sentiment_score     = ndb.FloatProperty()
+    rank                = ndb.StringProperty(choices=RANKS, required=True)
+    category            = ndb.StringProperty(choices=SUPPORTED_CATEGORIES, required=True)
 
 class Article(ndb.Model):
     """
@@ -30,6 +31,6 @@ class SentimentClassifier(ndb.Model):
     """
     Sentiment Classifier
     """
-    category        = ndb.StringProperty(choices=[SUPPORTED_CATEGORY], required=True)
+    category        = ndb.StringProperty(choices=SUPPORTED_CATEGORIES, required=True)
     classifier      = ndb.BlobProperty()
 
