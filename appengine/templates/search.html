@@ -1,4 +1,110 @@
 {% extends "base.html" %}
-{% block body %}
-    {{message}}
+
+{% block navbar %}
 {% endblock %}
+
+{% block content %}
+<div class="row">
+    <form class="form-search span12">
+        <input class="span8" type="text" class="input-medium search-query" placeholder="Search twitter">
+        <button type="submit span1" class="btn">Search</button>
+    </form>
+</div>
+{{message}} something different
+{% endblock %}
+
+{% block script %}
+<script>
+$(document).ready(function() {
+
+    function changeSourceStatus(source, status) {
+        $.post("{{lockdownEndpoint}}", { source: source, enable: status },
+            function(data) {
+                if (status === 'yes') {
+                    $("#lock-down-" + source).text(data.lockDown)
+                    $("#lock-by-" + source).text(data.lockBy)
+                    $('#locked-note-' + source).show()
+                } else {
+                    $('#locked-note-' + source).hide()
+                }
+            }, 'json');
+    }
+
+    function updateHeader() {
+        numLocked = 0
+        numWarned = 0
+        numWarnings = 0
+        $('.btn').each(function(index) {
+            if ($(this).hasClass('btn-success')){
+                numLocked++
+            }
+        });
+        $('.warned').each(function(index) {
+            warnings = parseInt($(this).text())
+            if (warnings > 0){
+                numWarned++
+                numWarnings += warnings
+            }
+        });
+        anyLockedDown = numLocked > 0
+        if (anyLockedDown) {
+            $('#navbar-error').show()
+            $('#num-broken').text(numLocked + ' Quarantined Source(s)')
+        }
+        else {
+            $('#navbar-error').hide()
+        }
+        if (numWarned >= 1) {
+            $('#navbar-warn').show()
+            $('#num-warned').text(numWarned + ' Source(s) With ' + numWarnings + ' Error(s)')
+        }
+        else {
+            $('#navbar-warn').hide()
+        }
+        if(!anyLockedDown && numWarned == 0) {
+            $('#navbar-success').show()
+        }
+        else {
+            $('#navbar-success').hide()
+        }
+    }
+
+    $(".btn").click(function () {
+        var answer = confirm("Are you sure you want to change the status of the source?")
+        if (!answer){
+            return   //They're not sure
+        }
+
+        $(this).attr("disabled", true);
+        source = $(this).attr('id').split('-')[1]
+        rowName = ".tr-" + source
+        warningName = '#warn-' + source
+        if ($(this).hasClass('btn-danger')){
+            result = changeSourceStatus(source, 'yes')
+            $(rowName).each(function(index) {
+                $(this).addClass('error')
+            });
+            $(warningName).text('0')
+            $(this).removeClass('btn-danger')
+            $(this).addClass('btn-success')
+            $(this).text('Enable')
+        } else {
+            result = changeSourceStatus(source, 'no')
+            $(rowName).each(function(index) {
+                $(this).removeClass('warn')
+                $(this).removeClass('error')
+            });
+            $(this).removeClass('btn-success')
+            $(this).addClass('btn-danger')
+            $(this).text('Disable')
+        }
+        $(this).attr("disabled", false);
+        updateHeader()
+    });
+
+    updateHeader()
+});
+
+</script>
+{% endblock script %}
+
